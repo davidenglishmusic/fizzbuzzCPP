@@ -1,22 +1,21 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
   for ( int x = 0; x < 100; x++){
     if (x % 15 == 0){
-      std::cout<<"fizzbuzz\n";
+      cout<<"fizzbuzz\n";
     }
     else if (x % 5 == 0){
-      std::cout<<"buzz\n";
+      cout<<"buzz\n";
     }
     else if (x % 3 == 0){
-      std::cout<<"fizz\n";
+      cout<<"fizz\n";
     }
     else{
-      std::cout<< x;
-      std::cout<<"\n";
+      cout<< x << "\n";
     }
   }
-
   return 0;
 }
